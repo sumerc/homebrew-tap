@@ -10,7 +10,7 @@ class Zee < Formula
 
   if Hardware::CPU.intel?
     url "https://github.com/sumerc/zee/releases/download/v0.3.0/zee_darwin_amd64.tar.gz"
-    sha256 "ac7aa0e1bd86ff933917183fe38627ff20b3ea9002c60846367427bcaea7cd13"
+    sha256 "624457aabcb840a11c38e2ece2eebd9ed26be8ee657876078346db42517b298a"
 
     define_method(:install) do
       bin.install "zee"
@@ -18,7 +18,7 @@ class Zee < Formula
   end
   if Hardware::CPU.arm?
     url "https://github.com/sumerc/zee/releases/download/v0.3.0/zee_darwin_arm64.tar.gz"
-    sha256 "e92bc3ef756bf566c22a807631fb62e15a039f407d96b1d39dda8eea03300dc6"
+    sha256 "bb5886f343d6e08a72fa09fd7b618e9fa0a533da1d7f77897b8e6751ee401ac9"
 
     define_method(:install) do
       bin.install "zee"
