@@ -5,20 +5,20 @@
 class Zee < Formula
   desc "Push-to-talk transcription for macOS"
   homepage "https://github.com/sumerc/zee"
-  version "0.3.0"
+  version "0.3.1"
   depends_on :macos
 
   if Hardware::CPU.intel?
-    url "https://github.com/sumerc/zee/releases/download/v0.3.0/zee_darwin_amd64.tar.gz"
-    sha256 "624457aabcb840a11c38e2ece2eebd9ed26be8ee657876078346db42517b298a"
+    url "https://github.com/sumerc/zee/releases/download/v0.3.1/zee_darwin_amd64.tar.gz"
+    sha256 "93cfdae551e6338c6ca95ab9d6f8ac06600719a0fa79638c13d03bf41f835904"
 
     define_method(:install) do
       bin.install "zee"
     end
   end
   if Hardware::CPU.arm?
-    url "https://github.com/sumerc/zee/releases/download/v0.3.0/zee_darwin_arm64.tar.gz"
-    sha256 "bb5886f343d6e08a72fa09fd7b618e9fa0a533da1d7f77897b8e6751ee401ac9"
+    url "https://github.com/sumerc/zee/releases/download/v0.3.1/zee_darwin_arm64.tar.gz"
+    sha256 "e05092bf1c4014094c25c808d20b971ad0b9cba56a16ff8262bb56bddc133bf6"
 
     define_method(:install) do
       bin.install "zee"
