@@ -1,6 +1,6 @@
 cask "zee" do
-  version "0.3.3"
-  sha256 "2b529662623d202628e086bed7ad28d1603eb4c6be44729bc9b511c9d0e8d75d"
+  version "0.3.5"
+  sha256 "a17469ef3a3f6e108813c356079d72ff074538f08d5c0b2487d30fe1b319a50d"
   url "https://github.com/sumerc/zee/releases/download/v#{version}/Zee-v#{version}.dmg"
   name "Zee"
   desc "Push-to-talk transcription for macOS"
